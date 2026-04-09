@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- Gun_Revolver -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="Gun_Revolver"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="Gun_Revolver"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>5</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- Gun_PumpShotgun -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="Gun_PumpShotgun"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="Gun_PumpShotgun"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>10</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- Gun_BoltActionRifle -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="Gun_BoltActionRifle"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="Gun_BoltActionRifle"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>15</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- Gun_LMG -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="Gun_LMG"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="Gun_LMG"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>10</costStuffCount>
+        </Value>
+    </Operation>
+
+</Patch>
