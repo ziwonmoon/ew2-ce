@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- CE_Apparel_ImprovGasMask -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Apparel_ImprovGasMask"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Apparel_ImprovGasMask"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>4</costStuffCount>
+        </Value>
+    </Operation>
+
+</Patch>

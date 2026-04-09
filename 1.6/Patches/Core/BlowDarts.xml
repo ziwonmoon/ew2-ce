@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- MakeAmmo_Dart_Venom -->
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_Dart_Venom"]/ingredients/li[filter/thingDefs/li="WoodLog"]/filter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_Dart_Venom"]/fixedIngredientFilter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+
+</Patch>

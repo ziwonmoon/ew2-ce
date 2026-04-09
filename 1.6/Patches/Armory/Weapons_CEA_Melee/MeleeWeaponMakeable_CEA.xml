@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- MeleeWeaponMakeable_CEA -->
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="MeleeWeaponMakeable_CEA"]/recipeMaker/defaultIngredientFilter</XPath>
+        <Value>
+            <disallowedCategories>
+                <li>EW2_RawWoody</li>
+            </disallowedCategories>
+        </Value>
+    </Operation>
+</Patch>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- CE_Turret_TwelvePounder -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Turret_TwelvePounder"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Turret_TwelvePounder"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>150</costStuffCount>
+        </Value>
+    </Operation>
+</Patch>

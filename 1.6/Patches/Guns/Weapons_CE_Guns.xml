@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- CE_Gun_Crossbow -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_Crossbow"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_Crossbow"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>40</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_FlintlockPistol -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_FlintlockPistol"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_FlintlockPistol"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>5</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_FlintlockBlunderbuss -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_FlintlockBlunderbuss"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_FlintlockBlunderbuss"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>10</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_FlintlockMusket -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_FlintlockMusket"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_FlintlockMusket"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>10</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_WinchesterNintyFour -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_WinchesterNintyFour"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_WinchesterNintyFour"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>10</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_AKMSU -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_AKMSU"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_AKMSU"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>5</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_FNFAL -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_FNFAL"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_FNFAL"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>10</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_MiniFourteen -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_MiniFourteen"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_MiniFourteen"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>10</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_SKS -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_SKS"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_SKS"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>15</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_AKM -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_AKM"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_AKM"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>10</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_SVD -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_SVD"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_SVD"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>10</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_PTRS -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_PTRS"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_PTRS"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>15</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_RPD -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_RPD"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_RPD"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>15</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_PKM -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_PKM"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_PKM"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>10</costStuffCount>
+        </Value>
+    </Operation>
+
+<!-- CE_Gun_RPGSeven -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_RPGSeven"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_RPGSeven"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>5</costStuffCount>
+        </Value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- MakeStickBomb -->
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeStickBomb"]/ingredients/li[filter/thingDefs/li="WoodLog"]/filter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeStickBomb"]/fixedIngredientFilter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+
+</Patch>

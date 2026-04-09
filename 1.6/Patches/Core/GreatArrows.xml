@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- MakeAmmo_GreatArrow_Stone -->
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_GreatArrow_Stone"]/ingredients/li[filter/thingDefs/li="WoodLog"]/filter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_GreatArrow_Stone"]/fixedIngredientFilter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+
+<!-- MakeAmmo_GreatArrow_Steel -->
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_GreatArrow_Steel"]/ingredients/li[filter/thingDefs/li="WoodLog"]/filter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_GreatArrow_Steel"]/fixedIngredientFilter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+
+<!-- MakeAmmo_GreatArrow_Plasteel -->
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_GreatArrow_Plasteel"]/ingredients/li[filter/thingDefs/li="WoodLog"]/filter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_GreatArrow_Plasteel"]/fixedIngredientFilter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+
+<!-- MakeAmmo_GreatArrow_Venom -->
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_GreatArrow_Venom"]/ingredients/li[filter/thingDefs/li="WoodLog"]/filter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_GreatArrow_Venom"]/fixedIngredientFilter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+
+<!-- MakeAmmo_GreatArrow_Flame -->
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_GreatArrow_Flame"]/ingredients/li[filter/thingDefs/li="WoodLog"]/filter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/RecipeDef[defName="MakeAmmo_GreatArrow_Flame"]/fixedIngredientFilter</XPath>
+        <Value>
+                <categories>
+                    <li>EW2_WoodLog</li>
+                </categories>
+        </Value>
+    </Operation>
+
+</Patch>

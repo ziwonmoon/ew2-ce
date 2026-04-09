@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- CE_Gun_AmericanOneEighty -->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_AmericanOneEighty"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="CE_Gun_AmericanOneEighty"]</XPath>
+        <Value>
+            <stuffCategories>
+                <li>EW2_RawWoody</li>
+            </stuffCategories>
+            <costStuffCount>10</costStuffCount>
+        </Value>
+    </Operation>
+</Patch>
