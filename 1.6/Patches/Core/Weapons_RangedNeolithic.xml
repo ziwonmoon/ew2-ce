@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- Bow_Great-->
+    <Operation Class="PatchOperationRemove">
+        <XPath>/Defs/ThingDef[defName="Bow_Great"]/costList/WoodLog</XPath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <XPath>/Defs/ThingDef[defName="Bow_Great"]</XPath>
+        <Value>
+					<stuffCategories>
+						<li>EW2_RawWoody</li>
+					</stuffCategories>
+					<costStuffCount>40</costStuffCount>
+        </Value>
+    </Operation>
+
+</Patch>
